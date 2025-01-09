@@ -43,10 +43,10 @@ To run this project locally, follow the steps below:
 1. **Clone this repository**:
 
    ```bash
-   git clone https://github.com/your-username/cs50-web-search-engine.git
+   git clone https://github.com/lonyasha/cs50w-search.git
 2. **Navigate into the project directory**:
    ```bash
-   cd cs50-web-search
+   cd cs50w-search
 3. Open `index.html` in your browser to view the Google Search page. You can also navigate to `image-search.html` and `advanced-search.html` for the other pages.
    Simply open the HTML files in your browser by double-clicking on them.
 
