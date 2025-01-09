@@ -1,8 +1,8 @@
-# CS50 Web - Search Project
+# Search
 
-This project is part of **CS50's Web Programming with Python and JavaScript** course offered by Harvard University. In this project, I have designed a simple front-end for **Google Search**, **Google Image Search**, and **Google Advanced Search** using HTML and CSS. The application simulates how Google performs search queries by using **GET parameters** in the URL.
+Search is a front-end web application created as part of **[CS50's Web Programming with Python and JavaScript](https://cs50.harvard.edu/web/2020/)** course offered by Harvard University. This project replicates and extends Google’s search functionality, allowing users to perform regular, image, and advanced searches with a custom interface styled to resemble Google’s aesthetics.
 
-## Project Overview
+## About the Project
 
 This web application includes three main pages:
 
@@ -53,3 +53,9 @@ To run this project locally, follow the steps below:
  
 Alternatively, you can view the live version of the project on GitHub Pages:
 [CS50 Web Search Project](https://lonyasha.github.io/cs50-web-search/)
+
+---
+
+This project is part of **[CS50's Web Programming with Python and JavaScript](https://cs50.harvard.edu/web/2020/)** course by Harvard University. The assignment helped deepen my understanding of front-end development and form handling in web applications.
+
+Thank you for visiting! 🎉
