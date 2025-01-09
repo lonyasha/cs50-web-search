@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <title>Google Search</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  </head>
+  <body>
+    <header class="navigation">
+      <nav>
+        <a href="images.html">Image Search</a>
+        <a href="advanced.html">Advanced Search</a>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="googleLogo">
+        <img src="images/google_logo.png" alt="logo" />
+      </div>
+      <form action="https://www.google.com/search" class="simpleSearch">
+        <div class="searchContainer">
+          <span class="material-symbols-outlined">search</span>
+          <input type="text" name="q" id="searchQuery" />
+        </div>
+        <div class="buttons">
+          <input
+            type="button"
+            value="Google Search"
+            onclick="submitSearch()"
+            class="submit" />
+          <input
+            type="button"
+            value="I'm Feeling Lucky"
+            onclick="imFeelingLucky()"
+            class="submit" />
+        </div>
+      </form>
+    </main>
+    <footer>
+      <div>
+        This page is created as part of the assignment for
+        <b>CS50's Web Programming with Python and JavaScript</b> course.
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

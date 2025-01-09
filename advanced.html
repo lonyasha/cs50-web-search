@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="navigationAdvanced">
+      <a href="index.html"
+        ><img src="images/google_logo.png" alt="logo" class="logo"
+      /></a>
+      <nav class="links">
+        <a href="index.html">Back to Search</a>
+      </nav>
+    </header>
+    <main>
+      <div class="title">Advanced Search</div>
+      <div class="advancedSearchContainer">
+        <form action="https://www.google.com/search" class="advancedSearch">
+          <div class="row">
+            <div class="firstColumn">
+              <span class="headFirstColumn">Find pages with...</span>
+            </div>
+            <div class="secondColumn"></div>
+            <div class="thirdColumn">
+              <span class="headThirdColumn">To do this in the search box.</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="firstColumn">
+              <label for="allWords">all these words:</label>
+            </div>
+            <div class="secondColumn">
+              <input type="text" name="as_q" id="allWords" />
+            </div>
+            <div class="thirdColumn">
+              <div class="todoText">
+                Type the important words:
+                <span class="monoText"> tri-colour rat terrier</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="firstColumn">
+              <label for="exactWordPhrase">this exact word or phrase:</label>
+            </div>
+            <div class="secondColumn">
+              <input type="text" name="as_epq" id="exactWordPhrase" />
+            </div>
+            <div class="thirdColumn">
+              <div class="todoText">
+                Put exact words in quotes:
+                <span class="monoText">"rat terrier"</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="firstColumn">
+              <label for="anyWords">any of these words:</label>
+            </div>
+            <div class="secondColumn">
+              <input type="text" name="as_oq" id="anyWords" />
+            </div>
+            <div class="thirdColumn">
+              <div class="todoText">
+                Type <span class="monoText">OR</span> between all the words you
+                want: <span class="monoText">miniature OR standard</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="firstColumn">
+              <label for="noneWords">none of these words:</label>
+            </div>
+            <div class="secondColumn">
+              <input type="text" name="as_eq" id="noneWords" />
+            </div>
+            <div class="thirdColumn">
+              <div class="todoText">
+                Put a minus sign just before words that you don't want:
+                <span class="monoText"> -rodent, -"Jack Russell" </span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="firstColumn"></div>
+            <div class="secondColumn">
+              <input type="submit" value="Advanced Search" />
+            </div>
+            <div class="thirdColumn"></div>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div>
+        This page is created as part of the assignment for
+        <b>CS50's Web Programming with Python and JavaScript</b> course.
+      </div>
+    </footer>
+  </body>
+</html>
